@@ -259,12 +259,12 @@ const about = {
           <>Building next gen apps with Next.js + Once UI + Supabase.</>
         ),
         images: [
-          //   {
-          //     src: "/images/projects/project-01/cover-04.jpg",
-          //     alt: "Project image",
-          //     width: 16,
-          //     height: 9,
-          //   },
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
         ],
       },
     ],
