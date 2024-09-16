@@ -2,13 +2,13 @@ import { InlineCode } from "@/once-ui/components";
 import Link from "next/link";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Muhammad Aiman",
+  lastName: "Furqon",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
+  role: "Full Stack Developer",
+  avatar: "/images/avatar.png",
   location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -29,12 +29,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/aimanfurqon",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/muhammad-aiman-furqon",
   },
   {
     name: "X",
@@ -44,7 +44,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "mailto:aimanconnects@gmail.com",
   },
 ];
 
@@ -55,8 +55,9 @@ const home = {
   headline: <>Full Stack Developer</>,
   subline: (
     <>
-      I'm Aiman, a design engineer at <InlineCode>FLY</InlineCode>, where I
-      craft intuitive user experiences. After hours, I build my own projects.
+      I'm Aiman, a full stack developer at{" "}
+      <InlineCode>Kalbe Nutritionals</InlineCode>, where I craft intuitive user
+      experiences. After hours, I build my own projects.
     </>
   ),
 };
