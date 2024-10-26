@@ -238,12 +238,12 @@ const about = {
           </>
         ),
         images: [
-          //   {
-          //     src: "/images/projects/project-01/cover-04.jpg",
-          //     alt: "Project image",
-          //     width: 16,
-          //     height: 9,
-          //   },
+          {
+            src: "/images/projects/project-01/skills-01.png",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
         ],
       },
       {
@@ -256,12 +256,12 @@ const about = {
           </>
         ),
         images: [
-          //   {
-          //     src: "/images/projects/project-01/cover-04.jpg",
-          //     alt: "Project image",
-          //     width: 16,
-          //     height: 9,
-          //   },
+          {
+            src: "/images/projects/project-01/skills-02.png",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
         ],
       },
       {
@@ -275,10 +275,10 @@ const about = {
         ),
         images: [
           {
-            src: "",
-            alt: "",
-            width: 0,
-            height: 0,
+            src: "/images/projects/project-01/skills-03.png",
+            alt: "Project image",
+            width: 16,
+            height: 9,
           },
         ],
       },
