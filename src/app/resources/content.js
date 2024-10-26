@@ -194,7 +194,10 @@ const about = {
       {
         title: "Figma",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>
+            Proficient in rapid prototyping with Figma, leveraging advanced UI
+            design skills to create user-centered interfaces with efficiency.
+          </>
         ),
         images: [
           //   {
@@ -228,7 +231,11 @@ const about = {
       {
         title: "C# & .NET Framework",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>
+            Experienced in building next-generation applications with C# and
+            .NET, integrating seamlessly with Next.js and Supabase for
+            comprehensive full-stack solutions.
+          </>
         ),
         images: [
           //   {
@@ -242,7 +249,11 @@ const about = {
       {
         title: "HTML, CSS & JavaScript",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>
+            Skilled in core front-end development using HTML, CSS, and
+            JavaScript, focusing on responsive design and creating dynamic user
+            interfaces.
+          </>
         ),
         images: [
           //   {
@@ -256,15 +267,19 @@ const about = {
       {
         title: "SQL Server",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>
+            Adept at managing databases with SQL Server, executing complex
+            queries, and integrating robust data management into modern web
+            applications.
+          </>
         ),
         images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/project-01/cover-04.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
     ],
