@@ -274,12 +274,12 @@ const about = {
           </>
         ),
         images: [
-          // {
-          //   src: "/images/projects/project-01/cover-04.jpg",
-          //   alt: "Project image",
-          //   width: 16,
-          //   height: 9,
-          // },
+          {
+            src: "",
+            alt: "",
+            width: 0,
+            height: 0,
+          },
         ],
       },
     ],
