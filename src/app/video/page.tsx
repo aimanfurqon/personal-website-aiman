@@ -1,11 +1,11 @@
 import { getPosts } from "@/app/utils";
 import { Flex } from "@/once-ui/components";
-import { Projects } from "@/app/work/components/Projects";
-import { baseURL, person, work } from "../resources";
+import { Videos } from "@/app/video/components/Videos";
+import { baseURL, person, work, video } from "../resources";
 
 export function generateMetadata() {
-  const title = work.title;
-  const description = work.description;
+  const title = video.title;
+  const description = video.description;
   const ogImage = `https://${baseURL}/og?title=${encodeURIComponent(title)}`;
 
   return {
@@ -15,7 +15,7 @@ export function generateMetadata() {
       title,
       description,
       type: "website",
-      url: `https://${baseURL}/work`,
+      url: `https://${baseURL}/video`,
       images: [
         {
           url: ogImage,
@@ -32,8 +32,8 @@ export function generateMetadata() {
   };
 }
 
-export default function Work() {
-  let allProjects = getPosts(["src", "app", "work", "projects"]);
+export default function Video() {
+  let allProjects = getPosts(["src", "app", "video", "projects"]);
 
   return (
     <Flex fillWidth maxWidth="m" direction="column">
@@ -44,9 +44,9 @@ export default function Work() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "CollectionPage",
-            headline: work.title,
-            description: work.description,
-            url: `https://${baseURL}/projects`,
+            headline: video.title,
+            description: video.description,
+            url: `https://${baseURL}/video`,
             image: `${baseURL}/og?title=Design%20Projects`,
             author: {
               "@type": "Person",
@@ -56,13 +56,13 @@ export default function Work() {
               "@type": "CreativeWork",
               headline: project.metadata.title,
               description: project.metadata.summary,
-              url: `https://${baseURL}/projects/${project.slug}`,
+              url: `https://${baseURL}/video/${project.slug}`,
               image: `${baseURL}/${project.metadata.image}`,
             })),
           }),
         }}
       />
-      <Projects />
+      <Videos />
     </Flex>
   );
 }

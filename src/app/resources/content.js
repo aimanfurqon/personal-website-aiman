@@ -52,10 +52,10 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Full Stack Developer & Designer</>,
+  headline: <>Software Engineer, Video Editor & Designer</>,
   subline: (
     <>
-      I'm Aiman, a full stack developer intern at{" "}
+      I'm Aiman, a software engineer at{" "}
       <InlineCode>Kalbe Nutritionals</InlineCode>, where I craft intuitive
       <br /> code. After hours, I build my own projects.
     </>
@@ -286,6 +286,14 @@ const about = {
   },
 };
 
+const video = {
+  label: "Video",
+  title: "My Video Portfolio",
+  description: `Explore video projects created by ${person.name}.`,
+  // Create new video pages by adding a new .mdx file to app/video/projects
+  // All videos will be listed on the /video route
+};
+
 const blog = {
   label: "Blog",
   title: "Writing about design and tech...",
@@ -381,4 +389,4 @@ const gallery = {
   ],
 };
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { person, social, newsletter, home, about, blog, work, gallery, video };
