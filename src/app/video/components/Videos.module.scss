@@ -1,37 +1,39 @@
-// .hover {
-//     transition: var(--transition-property) var(--transition-duration-micro-medium) var(--transition-timing-function);
-
-//     &:hover {
-//         transform: translateX(var(--static-space-8));
-
-//         .indicator {
-//             transform: rotate(0);
-//         }
-//     }
-// }
-
-// .indicator {
-//     transform: rotate(-90deg);
-//     left: -2rem;
-//     transition: var(--transition-property) var(--transition-duration-micro-medium) var(--transition-timing-function);
-// }
-
-.video-hover {
+.hover {
   transition: var(--transition-property) var(--transition-duration-micro-medium)
     var(--transition-timing-function);
 
   &:hover {
     transform: translateX(var(--static-space-8));
 
-    .video-indicator {
+    .indicator {
       transform: rotate(0);
     }
   }
 }
 
-.video-indicator {
+.indicator {
   transform: rotate(-90deg);
   left: -2rem;
   transition: var(--transition-property) var(--transition-duration-micro-medium)
     var(--transition-timing-function);
 }
+
+// .video-hover {
+//   transition: var(--transition-property) var(--transition-duration-micro-medium)
+//     var(--transition-timing-function);
+
+//   &:hover {
+//     transform: translateX(var(--static-space-8));
+
+//     .video-indicator {
+//       transform: rotate(0);
+//     }
+//   }
+// }
+
+// .video-indicator {
+//   transform: rotate(-90deg);
+//   left: -2rem;
+//   transition: var(--transition-property) var(--transition-duration-micro-medium)
+//     var(--transition-timing-function);
+// }
